@@ -3,27 +3,28 @@
 #region enumlar
 abstract class Bankalar
 {
-    private const Merkez_Bankasi  = 0;
-    private const Garanti = 1;
-    private const Is_Bankasi = 2;
-    private const Akbank = 3;
-    private const Yapi_Kredi = 4;
-    private const Ziraat = 5;
-    private const HSBC = 6;
-    private const Halkbank = 7;
-    private const Vakifbank = 8;
-    private const TEB = 9;
-    private const Sekerbank = 10;
-    private const Kuveyt_Turk = 11;
-    private const Enpara = 12;
+    public const Merkez_Bankasi  = 0;
+    public const Garanti = 1;
+    public const Is_Bankasi = 2;
+    public const Akbank = 3;
+    public const Yapi_Kredi = 4;
+    public const Ziraat = 5;
+    public const HSBC = 6;
+    public const Halkbank = 7;
+    public const Vakifbank = 8;
+    public const TEB = 9;
+    public const Sekerbank = 10;
+    public const Kuveyt_Turk = 11;
+    public const Enpara = 12;
 }
 abstract class VarlikTurleri
 {
-    private const USD = 0;
-    private const EUR = 1;
-    private const GBP = 2;
-    private const Gram_Altin = 3;
-    private const Ons_Altin = 4;
+    public const TL = 0;
+    public const USD = 1;
+    public const EUR = 2;
+    public const GBP = 3;
+    public const Gram_Altin = 4;
+    public const Ons_Altin = 5;
 }
 #endregion
 

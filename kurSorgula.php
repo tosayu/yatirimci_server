@@ -1,5 +1,5 @@
 <?php
-include("Models/kur.php");
+include("Models/Kur.php");
 include("inc/vt_inc.php");
 /*
 for($i=0;$i<15;$i++)
